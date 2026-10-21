@@ -16,8 +16,11 @@ const budgetRespected = budgetRestant >= 0; // Type : boolean
 
 // TODO : affichez le rapport uniquement avec des littéraux de gabarit.
 console.log(`Nom : ${nom}`);
+console.log(`Budget : ${budget} FCFA`);
+console.log(`Transport : ${transport} FCFA`);
+console.log(`Alimentation : ${alimentation} FCFA`);
+console.log(`Loisirs : ${loisirs} FCFA`);
 console.log(`Total des dépenses : ${totalDepenses} FCFA`);
 console.log(`Budget restant : ${budgetRestant} FCFA`);
 console.log(`Budget respecté : ${budgetRespected}`);
-
 
