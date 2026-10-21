@@ -15,7 +15,7 @@ const budgetRestant = budget - totalDepenses; // Type : number ; unité : FCFA
 const budgetRespected = budgetRestant >= 0; // Type : boolean
 
 // TODO : affichez le rapport uniquement avec des littéraux de gabarit.
-console.log(`Rapport de dépenses à compléter pour ${nom}.`);
+console.log(`Nom : ${nom}`);
 console.log(`Total des dépenses : ${totalDepenses} FCFA`);
 console.log(`Budget restant : ${budgetRestant} FCFA`);
 console.log(`Budget respecté : ${budgetRespected}`);
